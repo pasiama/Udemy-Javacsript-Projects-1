@@ -1,0 +1,28 @@
+body{
+      margin:0;
+      padding:0;
+      font-family: Arial, sans-serif;
+      justify-content: center;
+      align-items: center;
+      background-color: antiquewhite;
+      display: flex;
+      height: 100vh;
+}
+.container{
+      text-align: center;
+      
+}
+span{
+      color: blue;
+}
+button{
+      background-color: blue;
+      color: white;
+      padding: 10px 20px;
+      border: 2px solid rgb(217, 217, 243);
+      cursor: pointer;
+}
+button:hover{
+      background-color: rgb(235, 212, 142);
+     
+}
