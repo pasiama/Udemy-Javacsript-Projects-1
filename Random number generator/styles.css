@@ -1,0 +1,44 @@
+body{
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Times New Roman', Times, serif;
+      background-color: rgb(246, 245, 244);
+      color: white;
+}
+.container{
+      width: 50%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #070707;
+      border-radius: 10px;
+      box-shadow: 0 0 10px 5px #000;
+}
+.number-container{
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      display: flex;
+     animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+button{
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 5px;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+}
+button:hover{
+      background-color: #45a049;
+}
