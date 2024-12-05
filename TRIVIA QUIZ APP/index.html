@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trivia Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="header">
+    <h1>Trivia Quiz App</h1>
+    <div id="level-selector">
+      <button class="level-button" data-level="0">Level 1</button>
+      <button class="level-button" data-level="1">Level 2</button>
+    </div>
+  </header>
+
+  <main id="quiz-container">
+    <div id="progress-container">
+      <div id="progress-bar"></div>
+    </div>
+    <div id="question-container" class="hidden">
+      <h2 id="question"></h2>
+      <div id="options"></div>
+      <button id="next-button" class="hidden">Next</button>
+    </div>
+    <div id="summary-container" class="hidden">
+      <h2>Quiz Summary</h2>
+      <p id="total-score"></p>
+      <p id="correct-answers"></p>
+      <p id="incorrect-answers"></p>
+      <button id="restart-button">Restart Quiz</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

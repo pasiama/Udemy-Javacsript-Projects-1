@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>INTERACTIVE TO-DO LIST</h1>
+      </header>
+
+      <main>
+        <section class="form-section">
+          <h2>Add a Task</h2>
+          <form id="taskForm">
+            <label for="startDate">Task Title</label>
+            <input
+              type="text"
+              id="taskTitle"
+              placeholder="Task Title"
+              required
+            />
+            <label for="startDate">Description</label>
+            <textarea
+              id="taskDescription"
+              placeholder="Task Description"
+            ></textarea>
+            <label for="startDate">Start Date</label>
+            <input
+              type="datetime-local"
+              id="startDate"
+              required
+              placeholder="Start Date"
+            />
+            <label for="endDate">End Date</label>
+            <input
+              type="datetime-local"
+              id="endDate"
+              required
+              placeholder="End Date"
+            />
+            <select id="category" title="Task Category">
+              <option value="work">Work</option>
+              <option value="personal">Personal</option>
+              <option value="study">Study</option>
+            </select>
+            <select id="priority" title="Priority">
+              <option value="low">Low</option>
+              <option value="medium">Medium</option>
+              <option value="high">High</option>
+            </select>
+            <button type="submit">Add Task</button>
+          </form>
+        </section>
+
+        <section class="tasks-section">
+          <h2>Your Tasks</h2>
+          <div class="filters">
+            <button data-filter="all">All</button>
+            <button data-filter="low">Low Priority</button>
+            <button data-filter="medium">Medium Priority</button>
+            <button data-filter="high">High Priority</button>
+          </div>
+          <div id="taskGrid" class="task-grid"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
