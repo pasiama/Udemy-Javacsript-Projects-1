@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimalist Habit Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Habit Tracker</h1>
+    <p>Stay consistent and motivated with your daily habits!</p>
+  </header>
+
+  <main class="main-content">
+    <section class="habit-form">
+      <h2>Add a New Habit</h2>
+      <form id="habitForm">
+        <input type="text" id="habitName" placeholder="Enter habit name" required>
+        <button type="submit">Add Habit</button>
+      </form>
+    </section>
+
+    <section class="habits-section">
+      <h2>Your Habits</h2>
+      <div id="habitGrid" class="habit-grid">
+        <!-- Habits will be dynamically added here -->
+      </div>
+    </section>
+
+    <section class="motivation-section">
+      <h2>Motivational Quote</h2>
+      <p id="quote">"Consistency is the key to success!"</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Keep growing, one habit at a time. Designed for a teaching series on web development.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
