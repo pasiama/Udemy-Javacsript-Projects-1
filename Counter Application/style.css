@@ -1,0 +1,37 @@
+body{
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      height:100vh;
+}
+.container{
+      width: 80%;
+      margin: 0 auto;
+      overflow: hidden;
+      height:100vh;
+      border-radius: 5px;
+      padding: 10px;
+      text-align: center;
+    
+}
+.inside{
+      width: 50%;
+      float: left;
+      margin: 300px;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      justify-content: center;
+}
+button{
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: auto 20px;
+}
