@@ -1,0 +1,118 @@
+/* General Styles */
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom, #8e9eab, #eef2f3);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .header {
+      padding: 20px;
+      background: #557a95;
+      color: #fff;
+    }
+    
+    .header h1 {
+      font-size: 2.5rem;
+    }
+    
+    .main-content {
+      flex-grow: 1;
+      padding: 20px;
+    }
+    
+    .habit-form {
+      background: #f4f4f4;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .habit-form h2 {
+      margin-bottom: 10px;
+    }
+    
+    .habit-form input {
+      padding: 10px;
+      width: 70%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+    
+    .habit-form button {
+      padding: 10px 20px;
+      background: #557a95;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    
+    .habit-form button:hover {
+      background: #3e5a72;
+    }
+    
+    .habit-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+    }
+    
+    .habit {
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .habit .streak {
+      font-size: 1.2rem;
+      color: #557a95;
+      margin: 10px 0;
+    }
+    .habit .button {
+      font-size: 2.2rem;
+      color: #fbfbfb;
+      margin: 10px 0;
+      background-color: #3e5a72;
+      width: 50%;
+      cursor: pointer;
+    }
+    .habit .delete {
+      font-size: 2.2rem;
+      color: #fbfbfb;
+      margin: 10px 0;
+      background-color: #b0495a;
+      width: 50%;
+      cursor: pointer;
+    }
+    .motivation-section {
+      margin-top: 20px;
+      background: #557a95;
+      color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    
+    .footer {
+      background: #3e5a72;
+      color: #fff;
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+    

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Clock with Themes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Digital Clock</h1>
+    <div class="theme-toggle">
+      <button id="dayMode">Day Mode</button>
+      <button id="nightMode">Night Mode</button>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="clock-container">
+      <div id="digitalClock" class="digital-clock"></div>
+      <div id="analogClock" class="analog-clock">
+        <div class="hour-hand"></div>
+        <div class="minute-hand"></div>
+        <div class="second-hand"></div>
+      </div>
+    </div>
+    <div class="view-toggle">
+      <button id="digitalView">Digital View</button>
+      <button id="analogView">Analog View</button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Created as part of a web development teaching series.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
